@@ -1,0 +1,146 @@
+# Anmerkungen für GrafikerIn beginnen mit einer Raute (#)
+# ähnlich wie python-Kommentare
+#
+# In diesem Dokument stehen die Texte welche in Sprechblasen oder
+# Boxen zu den einzelnen Zeichnungen dazugefügt werden
+# Alles was nicht mit einer Raute beginnt ist im Bild sichtbar
+# 
+# Dir Graifkerin braucht sich nur um das Bild kümmern, Texte und
+# Sprechblasen werden nachträglich eingefügt
+# Einteilung der Bilder ( Wie viele Bilder pro Text etc)
+# obliegt der Grafikerin
+#
+#
+# Der Comic basiert auch dem Buch
+# Free as Freedom 2.0 und kann hier (englisch) heruntergeladen werden
+# http://shop.fsf.org/product/free-as-in-freedom-2/
+#
+# =====================================
+# Kapitel 1: 
+
+CHAPTER 1. FOR WANT OF A PRINTER
+
+# Die ersten Bilder klären die Hintergrundgeschichte von Richard Stallman
+# und der GPL 
+# Die Ereignisse spielen in den  1980-er Jahren 
+# im Massachusetts Institute of Technology’s Artificial Intelligence Laboratory
+# Stallman hat damals möglicherweise so ausgeschaut:
+# http://commons.wikimedia.org/wiki/File:Free_As_in_Freedom_pl_W_obronie_wolnosci_scaled_3x.png?uselang=de
+# freie Grafiken zum einfügen gibt es hier:
+# http://commons.wikimedia.org/wiki/Category:Richard_Stallman?uselang=de
+# (bitte immer genau dazuschreiben von welcher url die grafik kommt
+# damit ich die lizenzen eintragen kann)
+# das MIT Gebäude schaute damals ca. so aus:
+# http://en.wikipedia.org/wiki/File:MIT_Media_Lab.jpg
+# Da in den ersten Bildern viel Text vorkommt und wenig Personen
+# sind ein paar Außenansichten von Gebäuden ausreichend,
+# die Sprechblasen bzw Boxen stehen
+# dann über den Außenansichten. cool wären ein paar 80er-Jahre
+# Details ( Ghettoblaster, Walkman, Föhnfrisuren, Autos)
+# bei Passanten
+# Fotos von alten Xerox Computern und Xerox Gebäude gibt es hier:
+# http://en.wikipedia.org/wiki/Xerox
+# Die alten computer welche im Mit verwendet wurden sind hier sichtbar
+# http://en.wikipedia.org/wiki/PDP-11 bzw 
+# http://en.wikipedia.org/wiki/PDP-10
+# Man beachte die riesigen Magnetbänder
+
+Wir befinden uns im Jahr 1980.  Computer sind groß wie Wandschränke, 
+stehen in eigens gekühlten Räumen und nur sehr große Firmen, 
+Universitäten und das Militär können sich Computer Spezialisten, welche
+sie programmieren können Leisten. 
+(für jedermann erschwingliche Heimcomputer werden gerade erst erfunden)
+Die besten Spezialisten der USA arbeiten im angesehen  Massachusetts 
+Institute of Technology (MIT) und dort im Artificial Intelligence
+Laboratory (AI Lab). Einer davon ist Richard Stallman, 27 Jahre alt.
+
+In wenigen Momenten wird sich sein Leben für immer verändern.
+
+DAs AI-Lab bekommt von Firmen oft nagelneue Hardware(*)((Dinge, die man
+anfassen kann, werden Hardware genannt, im Gegensatz zu immateriellen 
+Dingen die man nicht anfassen kann (Musik, Computerprogramme) welche 
+Software genannt werden.)) geschenkt, darunter ein Xerox-Printer, ein 
+Vorläufer der heutigen Laserdrucker. 
+
+Der Xerox-Drucker (Xerox stellt Kopiermaschinen her) ist im AI-Lab 
+beliebt: Er druckt schnell, und in hoher Auflösung. Kreise schauen
+im Ausdruck wie Kreise aus und nicht wie Knödel die aus Legosteinchen
+zusammengesetzt wurden
+
+Doch der Xerox-Drucker hat einen Nachteil: Er produziert oft Papier-
+Staus. Dadurch werden alle Druckaufträge (das AI Lab ist vernetzt!)
+blockiert.
+
+# Stallman ärgert sich dass sein Druckauftrag nicht gedruckt wurde
+# Er geht zum Drucker ( nicht direkt neben seinem Computer )
+
+Stallman: "Nur 4 Seiten ausgedruckt von 500... und die 4 Seiten sind 
+nicht einmal von meinem Druckauftrag ! Grumml...
+Ich muss das fixen(*)((reparieren))"
+
+Stallman kennt sich zwar nicht mit Mechanik aus, aber er kann die
+Software, welchen den Drucker ansteuert umschreiben. Ein ähnliches 
+Problem hat er schon bei einem anderen Drucker gelöst: Er verbesserte
+die vorhanden DRUCKERTREIBER-Software so dass die Benutzer benachrichtigt
+wurden wenn der Drucker nicht funktionierte. Üblicherweise ging dann
+einer der Benutzer nachschauen was mit dem Drucker los war (z.B. ein
+Papierstau) und löste das Problem. 
+
+Dieses anschauen, verbessern und weitergeben von Software ist für 
+Stallman und die Programmierer-Kultur damals selbstverständlich.
+
+Stallman will die Software für Xerox-Drucker anschauen, doch sie ist nur
+in binary-Form(*)((nur für den Computer lesbar)) mitgeliefert, nicht
+als Source-Code(*)((für den Menschen lesbar))
+
+# vielleicht Bild einfügen wo Stallman blöd schaut auf einen Haufen
+# Nullen und Einsen (binary)
+
+Zu diesem Zeitpunkt schicken Firmen üblicherweise den Source-Code
+ihrer Programme mit, weil sie davon ausgehen dass er verbesert und
+angepasst werden muss. Da der gesamte Xerox Drucker ein Geschenk ist
+hat das AI-Lab keinen Anspruch auf den Source Code.
+
+Einige Zeit später besucht Stallman die Firma Xerox und trifft den 
+Ingenieur der für den Druckertreiber zuständig ist. 
+
+Stallman: "Hi, kannst Du mir den Sourcecode für den Xerox-Druckertreiber
+geben ? Ich will da ein Problem fixen..."
+Ingenieur: "Dude, ich *darf* Dir den Sourcecode nicht geben.  
+Betreibsgeheimnis! Ich hab ein NDA(*)((Non-disclosure agreement))
+ unterschreiben müssen."
+
+# nda: böse ausschauender Vertrag mit Gesicht wo der Mund zugepickt ist
+# dazu allerlei Paragraphen, Rufzeichen, Strafandrohung etc
+
+Stallman ist sprachlos. 
+
+Zurück im AI Lab ärgert sich Stallman immer mehr.
+
+# Rauchwolke über Stallmans Kopf etc.
+
+Stallman: "Ich will nicht in einer Welt leben in der mir jemand
+verbieten kann Source Code zu teilen. Was ist wenn ich eines Tages
+ein NDA unterschreiben muss ? Wenn jemand zu mir kommt und meinen
+Sourcecode sehen und verbessern will und ich DARF ihn nicht hergeben?"
+
+Dies war nicht das einzige derartige Erlebnis welches Stallmans Leben
+(und unser aller Leben) veränderte, aber das entscheidende.
+Er beschloss, etwas zu tun.
+
+# Stallmans Gesicht, entschlossen
+
+"Nicht mit mir!"
+
+
+# -------------- Chapter 3
+
+
+
+
+
+
+
+
+
+
